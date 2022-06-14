@@ -1,0 +1,153 @@
+body{
+    font-family:'Khula', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+max-width: 556px;
+
+display: flex;
+justify-content:space-between;
+
+border-bottom: 1px solid black ;
+margin: 0px auto;
+padding: 15px 0 25px 0  ;
+font-weight: bold;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.section_1{
+    font-weight: 500;
+}
+
+
+.translate{
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #818181;
+}
+
+
+.translate:focus{
+    color: #000000;
+}
+
+.mainImage img{
+    max-width: 900px;
+}
+
+
+.section_2{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #e7e7e7;
+    margin-top: 90px;
+}
+
+.section_4{
+    background-color: #e7e7e7;
+}
+
+
+.grey{
+    background-color: #8b8888;
+    border-radius: 20px ;
+    color: white;
+    font-size: 17px;
+    
+}
+
+
+.section_5 img{
+
+    width: 650px;
+    height: 100%;
+    
+}
+
+
+.section_6 img{
+
+    width:auto;
+    height: 300px;
+    
+    }
+    
+.section_6{
+    background-color: #e7e7e7;
+    margin-top: 100px;
+}
+
+footer .logo{
+
+    width: 100px;
+    height: 100px;
+
+}
+
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+@media(max-width: 556px){
+    .header{max-width: 450px;}
+}
+
+@media(max-width: 490px){
+    .header{max-width: 390px;}
+}
+
+@media(max-width: 410px){
+    .header{
+        max-width: 350px;
+
+        display: flex;
+        justify-content: space-around;
+
+        border-bottom: 1px solid black ;
+        margin: 0px auto;
+        padding: 30px 0 25px 0  ;
+        font-weight: bold;
+        font-size: 11.5px;
+    }
+}
+
+@media(max-width: 280px){
+    .header{
+        max-width: none;
+    }
+
+
+}
+
+
+
+@media(max-width: 900px){
+    .mainImage img {max-width: 750px;}
+}
+
+@media(max-width: 800px){
+    .mainImage img {max-width: 650px;}
+}
+
+@media(max-width: 700px){
+    .mainImage img {max-width: 500px;}
+}
+
+@media(max-width: 510px){
+    .mainImage img {max-width: 390px;}
+}
+
+@media(max-width: 41px){
+    .mainImage img {max-width: 280px;}
+}
