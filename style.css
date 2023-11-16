@@ -55,6 +55,11 @@ font-weight: bold;
     background-color: #e7e7e7;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 .grey{
     background-color: #8b8888;
