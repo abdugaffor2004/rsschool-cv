@@ -24,3 +24,46 @@ I'm a novice web developer that has a purpose: to be a good programmer with stro
 * React (beginner)
 * Redux (beginner)
 * Figma
+
+## Code Example :computer: :
+```
+const Force = (force  , weight, accelaration) => {
+    let request = prompt("Введите значение которое хотите найти в формуле: F=m*a")
+        
+        if (request === 'F' || request ==="f"){
+            
+            let weight = prompt("Введите значение массы: ")
+            let accelaration = prompt("Введите значение ускорения: ")
+         
+                    alert( "F=" + `${weight}*${accelaration} |`  + ' Ответ: F= ' + weight * accelaration + ' H')
+                                 
+            }
+            
+    
+        if (request === "m" || request ==="M" ) {
+            
+            let force = prompt("Введите значение силы: ")
+            let accelaration = prompt("Введите значение ускорения: ")
+            
+            alert( "m=" + `${force}/${accelaration} |`  + ' Ответ: m= ' + force / accelaration + ' кг')
+                
+            }
+            
+            
+        if (request === "a" || request ==="A")  {
+            
+            let force = prompt("Введите значение силы: ")
+            let weight = prompt("Введите значение массы: ")
+            
+            alert( "a=" + `${force}/${weight} |`  + ' Ответ: a= ' + force / weight + ' м/с^2')
+                
+            }
+            
+            if( request != "F" && request != "f" && request != "A" && request != "a" && request != "M" && request != "m") {alert('ERROR')}
+            
+            
+            return Force
+        }
+    
+     Force()
+```
